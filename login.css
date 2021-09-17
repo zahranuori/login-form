@@ -1,12 +1,15 @@
+body{
+    font-family: Dubai;
+}
 .cotainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     /*grid-column-gap: 15px;*/
 }
 .image-side-left {
-    margin: 0 0 0 9rem;
-    width: 35rem;
-    height: 47rem;
+    /*margin: 0 0 0 9rem;*/
+    width: 43rem;
+    height: 70rem;
 }
 .image-top{
     width: 15rem;
@@ -14,7 +17,7 @@
     padding: 2rem 0 2rem 16rem;
 }
 .text-top{
-    font-family: "Dubai";
+    font-size: 2rem;
     color: #616161;
     text-align: center;
     margin-bottom: 2rem;
@@ -24,6 +27,7 @@ label {
     text-align: left;
     font-family: "Dubai Light";
     color: darkgray;
+    margin-top: 1rem;
 
 }
 input {
@@ -38,7 +42,8 @@ input {
     font-family: "Dubai Light";
     color: darkgray;
     text-align: right;
-    margin: 0 20% 0 20%;
+    margin-top: 1rem;
+
 }
 .btn {
     width: 11rem;
@@ -52,4 +57,25 @@ input {
 }
 .btn:hover {
     background-color: darkslategray;
+}
+hr {
+    display: grid;
+    margin: 4rem 12rem 0 12rem;
+    color: rgba(237,237,237,0.35);
+}
+.or{
+    color: darkgray;
+    margin: 0 0 0 23rem;;
+
+}
+.footer {
+    text-align: center;
+
+}
+a {
+    color: dimgrey;
+}
+.accont {
+    margin-top: 3rem;
+    text-align: center;
 }
