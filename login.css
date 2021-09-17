@@ -55,7 +55,7 @@ input {
     display: grid;
     justify-content: center;
     align-items: center;
-    margin: 2rem 5rem 0 17rem;
+    margin: 2rem 5rem 0 7rem;
 }
 .btn:hover {
     background-color: darkslategray;
@@ -67,7 +67,7 @@ hr {
 }
 .or{
     color: darkgray;
-    margin: 0 0 0 23rem;;
+    margin: 0 0 0 12rem;;
 
 }
 .footer {
@@ -96,36 +96,13 @@ a {
         height: 7rem;
         padding: 1rem 0 1rem 9rem;
     }
-    .btn {
-        width: 11rem;
-        height: 2.5rem;
-        color: white;
-        background-color: #616161;
-        border-radius: 30px;
-        justify-items: center;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        /*margin: 2rem 5rem 0 17rem;*/
-    }
 }
-/*@media screen and (max-width: 1000px){*/
-/*    .image-side-left {*/
-/*       display: none;*/
-/*    }*/
-/*    .btn {*/
-/*        width: 100%;*/
-/*        height: 100%;*/
-/*        color: white;*/
-/*        background-color: #616161;*/
-/*        border-radius: 30px;*/
-/*        justify-items: center;*/
-/*        display: grid;*/
-/*        justify-content: center;*/
-/*        align-items: center;*/
-/*        !*margin: 2rem 5rem 0 17rem;*!*/
-/*    }*/
-/*}*/
+@media screen and (max-width: 1000px){
+    .image-side-left {
+       display: none;
+    }
+
+}
 @media screen and (min-width: 360px){
     .main {
         width: 50%;
@@ -133,20 +110,13 @@ a {
     .image-top{
         padding: 0;
     }
-    .btn {
-        width: 30%;
-        height: 10%;
-        color: white;
-        background-color: #616161;
-        border-radius: 30px;
 
-    }
     .forget {
         text-align: center;
 
     }
     .text-top{
-        font-size: 70%;
+
         color: #616161;
         text-align: center;
         margin-bottom: 20%;
