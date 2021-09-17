@@ -8,7 +8,7 @@ body{
 }
 .image-side-left {
     /*margin: 0 0 0 9rem;*/
-    width: 43rem;
+    width: 40rem;
     height: 70rem;
 }
 .image-top{
@@ -52,7 +52,10 @@ input {
     background-color: #616161;
     border-radius: 30px;
     justify-items: center;
-    margin-top: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 5rem 0 17rem;
 
 }
 .btn:hover {
