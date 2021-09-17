@@ -1,7 +1,7 @@
 body{
     font-family: Dubai;
 }
-.cotainer {
+.container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     /*grid-column-gap: 15px;*/
@@ -81,4 +81,11 @@ a {
 .accont {
     margin-top: 3rem;
     text-align: center;
+}
+@media screen and (max-width: 1320px){
+    body {
+        background-image: url("login page.jpg");
+
+    }
+
 }
